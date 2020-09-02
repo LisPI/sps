@@ -1,0 +1,35 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.3.3.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group 'com.rsschool'
+
+repositories {
+    jcenter()
+}
+
+ext {
+    zuulVersion = '2.2.5.RELEASE'
+    jjwtVersion = '0.9.1'
+    javaxXmlVersion = '2.3.1'
+    unirestClient = '3.10.00'
+}
+
+dependencies {
+    implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.springframework.boot:spring-boot-starter-security")
+    implementation("org.springframework.cloud:spring-cloud-starter-netflix-zuul:$zuulVersion")
+
+    implementation("io.jsonwebtoken:jjwt:$jjwtVersion")
+    implementation("javax.xml.bind:jaxb-api:$javaxXmlVersion")
+    implementation("com.konghq:unirest-java:$unirestClient")
+}

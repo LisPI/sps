@@ -1,0 +1,44 @@
+com/rsschool/sps/service/domain/AdminUser.java
+ com.rsschool.sps.service.domain.AdminUser
+com/rsschool/sps/domain/Credentials.java
+ com.rsschool.sps.domain.Credentials
+com/rsschool/sps/service/domain/AdminProperties.java
+ com.rsschool.sps.service.domain.AdminProperties
+com/rsschool/sps/domain/AccessToken.java
+ com.rsschool.sps.domain.AccessToken
+com/rsschool/sps/service/utils/HttpClient.java
+ com.rsschool.sps.service.utils.HttpClient
+com/rsschool/sps/domain/RefreshToken.java
+ com.rsschool.sps.domain.RefreshToken
+com/rsschool/sps/domain/CustomerWrapper.java
+ com.rsschool.sps.domain.CustomerWrapper
+com/rsschool/sps/domain/Customer.java
+ com.rsschool.sps.domain.Customer
+com/rsschool/sps/ApplicationInitializer.java
+ com.rsschool.sps.ApplicationInitializer
+com/rsschool/sps/service/domain/AuthProperties.java
+ com.rsschool.sps.service.domain.AuthProperties
+com/rsschool/sps/web/security/CorsFilter.java
+ com.rsschool.sps.web.security.CorsFilter
+com/rsschool/sps/web/security/SecurityConfigurerAdapter.java
+ com.rsschool.sps.web.security.SecurityConfigurerAdapter
+com/rsschool/sps/service/AuthService.java
+ com.rsschool.sps.service.AuthService
+com/rsschool/sps/web/security/RedirectFilter.java
+ com.rsschool.sps.web.security.RedirectFilter
+com/rsschool/sps/service/JwtService.java
+ com.rsschool.sps.service.JwtService
+com/rsschool/sps/web/domain/BaseUserDetails.java
+ com.rsschool.sps.web.domain.BaseUserDetails
+com/rsschool/sps/service/impl/AuthServiceImpl.java
+ com.rsschool.sps.service.impl.AuthServiceImpl
+com/rsschool/sps/domain/User.java
+ com.rsschool.sps.domain.User
+com/rsschool/sps/web/security/JwtAuthenticationFilter.java
+ com.rsschool.sps.web.security.JwtAuthenticationFilter
+com/rsschool/sps/web/AuthController.java
+ com.rsschool.sps.web.AuthController
+com/rsschool/sps/domain/AuthToken.java
+ com.rsschool.sps.domain.AuthToken
+com/rsschool/sps/service/impl/JwtServiceImpl.java
+ com.rsschool.sps.service.impl.JwtServiceImpl

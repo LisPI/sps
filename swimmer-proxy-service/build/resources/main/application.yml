@@ -1,0 +1,22 @@
+### Embedded Web server configuration
+server:
+  port: 8080
+
+zuul:
+  sensitiveHeaders:
+  routes:
+    rsschool-admin:
+      path: /v2api/2/**
+      url: https://mevis.s20.online/v2api/2
+
+admin:
+  url: https://mevis.s20.online
+  email: luba200296.lv@gmail.com
+  api-key: 02bb1557-d34d-11ea-a443-ac1f6b478310
+
+auth:
+  token:
+    prefix: Bearer
+    expiration: 600
+    refresh-expiration: 10080
+    secret: c3dpbW1lci1ycy1zY2hvb2w=
